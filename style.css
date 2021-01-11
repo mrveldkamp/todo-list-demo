@@ -1,0 +1,24 @@
+html {
+  background: skyblue;
+}
+
+body {
+  width: 600px;
+  padding: 20px 100px;
+  margin: auto;
+  background: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#task-in {
+  width: 100%;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  padding: 10px 0;
+}
